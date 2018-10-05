@@ -1,0 +1,143 @@
+/*
+ * SIMPLE GRID SYSTEM BY (C) BACHMANN KONRAD
+*/
+
+@media (min-width: 1366px) {
+    .container {
+        width: 60%;
+    }
+}
+
+@media (max-width: 1366px) {
+    .container {
+        width: 60%;
+    }
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    /* width: 60%; */
+}
+
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-12 {
+    padding: 10px;
+    overflow: hidden;
+    float: left;
+    width: calc(100% - 20px);
+}
+
+.col-11 {
+    padding: 10px;
+    overflow: hidden;
+    float: left;
+    width: calc(91.6666666% - 20px);
+}
+
+.col-10 {
+    padding: 10px;
+    overflow: hidden;
+    float: left;
+    width: calc(83.3333333% - 20px);
+}
+
+.col-9 {
+    padding: 10px;
+    overflow: hidden;
+    float: left;
+    width: calc(75% - 20px);
+}
+
+.col-8 {
+    padding: 10px;
+    overflow: hidden;
+    float: left;
+    width: calc(66.6666666% - 20px);
+}
+
+.col-7 {
+    padding: 10px;
+    overflow: hidden;
+    float: left;
+    width: calc(58.3333333% - 20px);
+}
+
+.col-6 {
+    padding: 10px;
+    overflow: hidden;
+    float: left;
+    width: calc(50% - 20px);
+}
+
+.col-5 {
+    padding: 10px;
+    overflow: hidden;
+    float: left;
+    width: calc(41.6666666% - 20px);
+}
+
+
+.col-4 {
+    padding: 10px;
+    overflow: hidden;
+    float: left;
+    width: calc(33.3333333% - 20px);
+}
+
+
+.col-3 {
+    padding: 10px;
+    overflow: hidden;
+    float: left;
+    height: auto;
+    width: calc(25% - 20px);
+}
+
+
+.col-2 {
+    padding: 10px;
+    overflow: hidden;
+    float: left;
+    width: calc(16.6666666% - 20px);
+}
+
+.col-1 {
+    padding: 10px;
+    overflow: hidden;
+    float: left;
+    width: calc(10% - 20px);
+}
+
+/*
+@media (max-width:667px) {
+    .col-4 {
+        padding: 10px;
+        overflow: hidden;
+        float: left;
+        width: calc(100% - 20px);
+    }
+
+    .container {
+        max-width: 99%;
+        min-width: 99%;
+    }
+}
+
+
+@media (min-width:667px) {
+    .col-4 {
+        padding: 10px;
+        overflow: hidden;
+        float: left;
+        width: calc(33.33333333333333% - 20px);
+    }
+}
+*/

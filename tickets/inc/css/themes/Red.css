@@ -1,0 +1,42 @@
+.navbar-inverse {
+    background-color: #F44336;
+    border-color: #c60d3e;
+}
+
+.panel-primary {
+    border-color: #c60d3e;
+}
+
+.panel-primary > .panel-heading {
+    background-color: #F44336;
+    border-color: #c60d3e;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #c90035;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    background-color: #c90035
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #F44336;
+}
+
+.btn-primary {
+    background-color: #F44336;
+    border-color: #c60d3e;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+    background-color: #db003a;
+    border-color: #c90035;
+}
+
+.btn-primary:hover {
+    background-color: #db003a;
+    border-color: #c90035;
+}

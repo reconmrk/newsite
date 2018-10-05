@@ -1,0 +1,54 @@
+.panel {
+    overflow: hidden !important;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+/* Sweet alert style*/
+.sweet-alert {
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+.sweet-alert p {
+    font-size: 14px !important;
+}
+
+.sweet-alert .sa-input-error {
+    top: 23px !important;
+    right: 13px !important;
+}
+
+.sweet-alert h2 {
+    font-size: 18px !important;
+    margin: 0 0 5px 0 !important;
+}
+
+.sweet-alert button {
+    font-size: 15px !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    border-radius: 0 !important;
+    padding: 5px 20px !important;
+}
