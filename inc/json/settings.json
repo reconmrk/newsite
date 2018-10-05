@@ -1,0 +1,12 @@
+{
+  "default-language": "English",
+  "default-theme": "Default",
+  "date-format": "d-m-Y H:i:s",
+  "time-format": "H:i:s",
+  "logo": "../inc/img/logo.png",
+  "full-logo": "../inc/img/full_logo.png",
+  "login-background": "../inc/img/bg.jpg",
+  "login-video": "",
+  "api_url": "http://restapiurl:777",
+  "secret": "YourSecretKeyHere"
+}
